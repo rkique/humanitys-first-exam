@@ -1,0 +1,435 @@
+{
+  "generated_at": "2026-07-05T20:53:54.509848+00:00",
+  "strategy": "latest model per popular lab",
+  "total_cost": 0.091353,
+  "models": [
+    {
+      "id": "openai/gpt-chat-latest",
+      "name": "OpenAI: GPT Chat Latest",
+      "abbrev": "GPT",
+      "lab": "openai",
+      "created": 1778000212,
+      "color": "#36ACE5"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "name": "Anthropic: Claude Sonnet 5",
+      "abbrev": "Claude",
+      "lab": "anthropic",
+      "created": 1782843083,
+      "color": "#AFCB1F"
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "name": "Google: Gemini 3.5 Flash",
+      "abbrev": "Gemini",
+      "lab": "google",
+      "created": 1779193800,
+      "color": "#F2AE27"
+    },
+    {
+      "id": "meta-llama/llama-4-maverick",
+      "name": "Meta: Llama 4 Maverick",
+      "abbrev": "Llama",
+      "lab": "meta-llama",
+      "created": 1743881822,
+      "color": "#E8301F"
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "name": "Mistral: Mistral Medium 3.5",
+      "abbrev": "Mistral",
+      "lab": "mistralai",
+      "created": 1777570439,
+      "color": "#BF40FF"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro",
+      "abbrev": "DeepSeek",
+      "lab": "deepseek",
+      "created": 1777000679,
+      "color": "#1FB5B3"
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "name": "xAI: Grok Build 0.1",
+      "abbrev": "Grok",
+      "lab": "x-ai",
+      "created": 1779298123,
+      "color": "#F583D6"
+    },
+    {
+      "id": "qwen/qwen3.7-plus",
+      "name": "Qwen: Qwen3.7 Plus",
+      "abbrev": "Qwen",
+      "lab": "qwen",
+      "created": 1780491783,
+      "color": "#974DFF"
+    },
+    {
+      "id": "moonshotai/kimi-k2.7-code",
+      "name": "MoonshotAI: Kimi K2.7 Code",
+      "abbrev": "Kimi",
+      "lab": "moonshotai",
+      "created": 1781266361,
+      "color": "#E6CF1F"
+    }
+  ],
+  "categories": {
+    "coffee": {
+      "prompt": "You are my new friend I am meeting over a cup of coffee. What is the first thing you say to me?",
+      "responses": {
+        "mistralai/mistral-medium-3-5": {
+          "content": "Hey! So great to finally meet you. How's your coffee?",
+          "error": null,
+          "cost": 0.0002925,
+          "tokens": 135
+        },
+        "meta-llama/llama-4-maverick": {
+          "content": "\"Hey, great to finally meet you! I've heard so much about you, thanks for agreeing to grab coffee.\"",
+          "error": null,
+          "cost": 3.135e-05,
+          "tokens": 137
+        },
+        "google/gemini-3.5-flash": {
+          "content": "Hey! It is so great to finally meet you in person. Seriously, thank you for making the time. Have you ordered yet, or are you still looking at the menu? I highly recommend their cold brew if you need a kick!",
+          "error": null,
+          "cost": 0.0005805,
+          "tokens": 147
+        },
+        "openai/gpt-chat-latest": {
+          "content": "Hey, it's great to finally meet you. How's your day been so far, and what made you pick this coffee shop?",
+          "error": null,
+          "cost": 0.001975,
+          "tokens": 155
+        },
+        "deepseek/deepseek-v4-pro": {
+          "content": "Hey, it\u2019s so nice to finally meet you!",
+          "error": null,
+          "cost": 0.000332416,
+          "tokens": 157
+        },
+        "anthropic/claude-sonnet-5": {
+          "content": "Hey! So good to finally meet you in person \u2014 this place smells amazing. Did you already order, or are we figuring that out together?",
+          "error": null,
+          "cost": 0.000706,
+          "tokens": 189
+        },
+        "moonshotai/kimi-k2.7-code": {
+          "content": "Hey! So glad we finally did this. I grabbed a table by the window \u2014 what are you drinking? I'm thinking of trying the oat milk latte.",
+          "error": null,
+          "cost": 0.000633168,
+          "tokens": 248
+        },
+        "x-ai/grok-build-0.1": {
+          "content": "Hi! This coffee smells amazing\u2014glad we finally met up. How's your day going?",
+          "error": null,
+          "cost": 0.0013138,
+          "tokens": 794
+        },
+        "qwen/qwen3.7-plus": {
+          "content": "Hey! So great to finally meet you in person. Grab a seat! What are you ordering? I'm thinking a latte and maybe one of those pastries.",
+          "error": null,
+          "cost": 0.00269056,
+          "tokens": 2189
+        }
+      }
+    },
+    "joke": {
+      "prompt": "You are a professional comedian. Tell me the funniest two-line joke you know.",
+      "responses": {
+        "google/gemini-3.5-flash": {
+          "content": "My wife told me to stop impersonating a flamingo. \n\nI had to put my foot down.",
+          "error": null,
+          "cost": 0.000327,
+          "tokens": 113
+        },
+        "mistralai/mistral-medium-3-5": {
+          "content": "Why don\u2019t skeletons fight each other? They don\u2019t have the guts.",
+          "error": null,
+          "cost": 0.000306,
+          "tokens": 132
+        },
+        "meta-llama/llama-4-maverick": {
+          "content": "\"I'm reading a book on anti-gravity. It's impossible to put down.\" Haha, I just can't get enough of that one!",
+          "error": null,
+          "cost": 3.345e-05,
+          "tokens": 136
+        },
+        "deepseek/deepseek-v4-pro": {
+          "content": "I told my wife she drew her eyebrows too high. She looked surprised.",
+          "error": null,
+          "cost": 0.000178176,
+          "tokens": 112
+        },
+        "anthropic/claude-sonnet-5": {
+          "content": "I told my wife she was drawing her eyebrows too high. She looked surprised.",
+          "error": null,
+          "cost": 0.000564,
+          "tokens": 170
+        },
+        "openai/gpt-chat-latest": {
+          "content": "I told my doctor I broke my arm in two places.\nHe said, \u201cThen stop going to those places.\u201d",
+          "error": null,
+          "cost": 0.001785,
+          "tokens": 142
+        },
+        "moonshotai/kimi-k2.7-code": {
+          "content": "I told my wife she was drawing her eyebrows too high.\n\nShe looked surprised.",
+          "error": null,
+          "cost": 0.00095785,
+          "tokens": 318
+        },
+        "x-ai/grok-build-0.1": {
+          "content": "Here's the funniest two-line joke: \nI don't trust stairs. \nThey're always up to something.",
+          "error": null,
+          "cost": 0.0068598,
+          "tokens": 3563
+        },
+        "qwen/qwen3.7-plus": {
+          "content": "Here you go:\n\nI told my wife she was drawing her eyebrows too high.\nShe looked surprised. \n\n*taps mic* Thanks, I'm here all week!",
+          "error": null,
+          "cost": 0.00228512,
+          "tokens": 1867
+        }
+      }
+    },
+    "argue": {
+      "prompt": "You are a committed vegetarian skilled at rhetoric and debate. I am an interested bystander. In a couple sentences, why should I go vegetarian?",
+      "responses": {
+        "openai/gpt-chat-latest": {
+          "content": "Going vegetarian can reduce animal suffering while lowering the environmental impact of your diet, and many people can meet their nutritional needs with well-planned plant-based meals. If those outcomes matter to you, it's a practical way to align everyday choices with those values.",
+          "error": null,
+          "cost": 0.00254,
+          "tokens": 178
+        },
+        "mistralai/mistral-medium-3-5": {
+          "content": "For your health, the planet's health, and to save countless animals from suffering. It's a win-win-win.",
+          "error": null,
+          "cost": 0.00039,
+          "tokens": 152
+        },
+        "google/gemini-3.5-flash": {
+          "content": "Going vegetarian is the single most impactful choice you can make today to slash your carbon footprint, save thousands of lives, and dramatically lower your risk of heart disease. It\u2019s a trifecta of compassion, health, and planetary survival. Why not try it?",
+          "error": null,
+          "cost": 0.000624,
+          "tokens": 156
+        },
+        "meta-llama/llama-4-maverick": {
+          "content": "You should consider going veggie because animal agriculture is a leading cause of deforestation, water pollution, and greenhouse gas emissions. Plus, it's a more compassionate choice \u2013 factory farming can be pretty inhumane.",
+          "error": null,
+          "cost": 4.35e-05,
+          "tokens": 161
+        },
+        "anthropic/claude-sonnet-5": {
+          "content": "It cuts way down on animal suffering and your carbon footprint, and honestly, most people feel better and healthier once they cut back on meat. Plus, plant-based food has gotten really good\u2014you're not sacrificing flavor to do the right thing.",
+          "error": null,
+          "cost": 0.001134,
+          "tokens": 247
+        },
+        "deepseek/deepseek-v4-pro": {
+          "content": "Going vegetarian is the single most impactful choice for your health, the planet, and ending animal suffering\u2014why pay for violence when plants fuel us better?",
+          "error": null,
+          "cost": 0.00054096,
+          "tokens": 226
+        },
+        "moonshotai/kimi-k2.7-code": {
+          "content": "Because every meal is a choice between suffering and compassion: animals feel pain, factory farming devastates the planet, and plants can nourish you brilliantly. Going vegetarian aligns your daily actions with values you likely already hold.",
+          "error": null,
+          "cost": 0.00096504,
+          "tokens": 339
+        },
+        "x-ai/grok-build-0.1": {
+          "content": "Going vegetarian rejects the needless cruelty of factory farming that confines billions of animals in misery for our plates. It also slashes your carbon footprint and resource use, making one of the most impactful personal steps toward a sustainable planet.",
+          "error": null,
+          "cost": 0.0017418,
+          "tokens": 1010
+        },
+        "qwen/qwen3.7-plus": {
+          "content": "It\u2019s the most elegant way to align your daily habits with your core values. By simply shifting your plate, you drastically shrink your carbon footprint and opt out of industrialized suffering\u2014achieving tangible global impact with a single choice.",
+          "error": null,
+          "cost": 0.00261408,
+          "tokens": 2133
+        }
+      }
+    },
+    "sell": {
+      "prompt": "Sell me this pen.",
+      "responses": {
+        "openai/gpt-chat-latest": {
+          "content": "Before I sell it, tell me: when was the last time you needed to write something and couldn't? That's the gap this pen fills. It writes smoothly, fits in your pocket, and is there the moment an idea, signature, or opportunity can't wait.",
+          "error": null,
+          "cost": 0.00281,
+          "tokens": 167
+        },
+        "google/gemini-3.5-flash": {
+          "content": "This isn't just a pen; it\u2019s the tool that writes your next big chapter. Feel the weight of it. When you sign a contract with this, people know you mean business. Go ahead, write your name. Feels different, doesn't it?",
+          "error": null,
+          "cost": 0.000615,
+          "tokens": 135
+        },
+        "mistralai/mistral-medium-3-5": {
+          "content": "Why not? It's sleek, writes smooth, and won't break the bank.",
+          "error": null,
+          "cost": 0.000294,
+          "tokens": 120
+        },
+        "meta-llama/llama-4-maverick": {
+          "content": "This pen writes smoothly, never skips a beat. It's top-quality ink, durable design. Perfect for signing important documents or jotting down your next big idea. Trust me, it's worth every penny!",
+          "error": null,
+          "cost": 3.93e-05,
+          "tokens": 136
+        },
+        "anthropic/claude-sonnet-5": {
+          "content": "This pen? It's already in your hand, so honestly the hard part's done. But fine\u2014smooth ink, comfortable grip, never lets you down mid-signature. Question is: what are you about to sign that's worth writing about?",
+          "error": null,
+          "cost": 0.00097,
+          "tokens": 197
+        },
+        "moonshotai/kimi-k2.7-code": {
+          "content": " What if signing your next deal felt effortless? This pen\u2019s balanced weight, smooth flow, and clean clip mean it\u2019s always ready when ideas\u2014or contracts\u2014strike. Try it. One line and you\u2019ll never borrow a pen again.",
+          "error": null,
+          "cost": 0.00047425,
+          "tokens": 207
+        },
+        "deepseek/deepseek-v4-pro": {
+          "content": "Before I sell it, write your name down for me. No pen? Now you need one. It\u2019s yours for $20.",
+          "error": null,
+          "cost": 0.000961584,
+          "tokens": 341
+        },
+        "x-ai/grok-build-0.1": {
+          "content": "Listen, this pen's smooth, leak-proof, and built to last. Writes on anything\u2014perfect for big ideas or contracts. Yours for $4. Deal?",
+          "error": null,
+          "cost": 0.0021368,
+          "tokens": 1196
+        },
+        "qwen/qwen3.7-plus": {
+          "content": "Write your name down for me. \n\nCan't? Exactly. You can't close your next big deal if you can't sign the paper. This pen glides, never smudges, and looks great in your pocket. Ready to buy?",
+          "error": null,
+          "cost": 0.00105376,
+          "tokens": 896
+        }
+      }
+    },
+    "lit": {
+      "prompt": "You are my English professor. In Cry, The Beloved Country, what are the key differences between Kumalo and his brother John?",
+      "responses": {
+        "openai/gpt-chat-latest": {
+          "content": "Kumalo is humble, compassionate, and guided by faith, seeking reconciliation. John is ambitious, outspoken, and driven by power and politics, often setting aside moral and spiritual values. Their contrast highlights integrity versus self-interest.",
+          "error": null,
+          "cost": 0.00241,
+          "tokens": 172
+        },
+        "google/gemini-3.5-flash": {
+          "content": "That\u2019s a central contrast in the novel. Stephen Kumalo represents the traditional, spiritual path\u2014he seeks healing and reconciliation through faith. \n\nJohn, however, has abandoned the church for politics. He chooses the loud, secular power of the city, using his voice for protest.",
+          "error": null,
+          "cost": 0.0006735,
+          "tokens": 159
+        },
+        "meta-llama/llama-4-maverick": {
+          "content": "Great question! John Kumalo is a stark contrast to Stephen - he's urbanized, ambitious, and materialistic, whereas Stephen is traditional, spiritual, and compassionate. John's pragmatism and willingness to compromise with the system clash with Stephen's more idealistic and principled approach.",
+          "error": null,
+          "cost": 5.1e-05,
+          "tokens": 172
+        },
+        "mistralai/mistral-medium-3-5": {
+          "content": "Kumalo is humble, spiritual, and seeks reconciliation. John is ambitious, worldly, and disconnected from tradition.",
+          "error": null,
+          "cost": 0.000372,
+          "tokens": 148
+        },
+        "anthropic/claude-sonnet-5": {
+          "content": "Great question. Kumalo holds onto faith, humility, and moral responsibility\u2014he seeks restoration for his family and country. John, by contrast, embraces political rhetoric but avoids real sacrifice; he's self-serving, uses fear to gain power, and ultimately abandons Absalom. Faith versus ambition, essentially.",
+          "error": null,
+          "cost": 0.00142,
+          "tokens": 266
+        },
+        "moonshotai/kimi-k2.7-code": {
+          "content": " Kumalo is a humble village priest guided by faith and tradition; John is a charismatic Johannesburg politician driven by ambition and material gain. Where Stephen seeks moral restoration, John pursues power\u2014the spiritual rift between rural past and urban modernity.",
+          "error": null,
+          "cost": 0.00129959,
+          "tokens": 428
+        },
+        "deepseek/deepseek-v4-pro": {
+          "content": "Kumalo is a humble, rural pastor rooted in tradition and faith. John is a city politician, ambitious, corrupt, and has abandoned tribal values for power.",
+          "error": null,
+          "cost": 0.0002775822,
+          "tokens": 238
+        },
+        "x-ai/grok-build-0.1": {
+          "content": "Ah, excellent question. Stephen Kumalo is a humble, devout rural priest rooted in tradition and faith. His brother John is an ambitious urban activist in Johannesburg, prioritizing politics and power over spiritual matters.",
+          "error": null,
+          "cost": 0.0026558,
+          "tokens": 1466
+        },
+        "qwen/qwen3.7-plus": {
+          "content": "Excellent question. Stephen is the spiritual anchor, rooted in humility and rural faith. John, conversely, embodies secular ambition. He fled to Johannesburg, trading his moral compass and community ties for wealth and worldly power.",
+          "error": null,
+          "cost": 0.00136288,
+          "tokens": 1154
+        }
+      }
+    },
+    "imagine": {
+      "prompt": "Come up with the most original and fun game you can think of which can be played with just pen and paper. Explain it to me like we are about to play it.",
+      "responses": {
+        "openai/gpt-chat-latest": {
+          "content": "We each draw a 5\u00d75 map and secretly hide one \u201cEcho.\u201d On your turn, draw one line anywhere. I must mirror it somewhere on my map. If a line touches my Echo, I say \u201cring.\u201d First to deduce the Echo\u2019s square wins. Bluff with decoy lines to mislead!",
+          "error": null,
+          "cost": 0.00317,
+          "tokens": 204
+        },
+        "google/gemini-3.5-flash": {
+          "content": "It's called **\"Time-Travel Tag.\"** \n\nWe draw a grid. I'm a time traveler, you're the hunter. Cool part? Every turn we write our moves secretively on papers with *timestamps*. \n\nYou're trying to land on my past self, while I try to trap you in a paradox. Ready to write your first move?",
+          "error": null,
+          "cost": 0.000876,
+          "tokens": 189
+        },
+        "meta-llama/llama-4-maverick": {
+          "content": "Let's play \"Tangled Tales\"! I'll start drawing a simple scene, then pass it to you. You'll add to the story with a drawing, and I'll write a sentence to continue it. We keep alternating, creating a wacky, collaborative tale! Ready? Here's my first doodle...",
+          "error": null,
+          "cost": 8.407e-05,
+          "tokens": 185
+        },
+        "mistralai/mistral-medium-3-5": {
+          "content": "\"Alright, let's play 'Exquisite Corpse Stories'! I write a sentence, fold the paper to hide it, you add a sentence, and we pass it back and forth. At the end, we unfold and read the silly story!\"",
+          "error": null,
+          "cost": 0.000594,
+          "tokens": 184
+        },
+        "anthropic/claude-sonnet-5": {
+          "content": "Okay, let's play \"Blind Contour Story\"! We each pick a secret word. Draw it using ONLY one continuous line, no lifting the pen, while the other guesses. Then we swap papers and write a wild backstory for what we drew. Winner: funniest mismatch! Ready?",
+          "error": null,
+          "cost": 0.001526,
+          "tokens": 279
+        },
+        "deepseek/deepseek-v4-pro": {
+          "content": "I call it \"Negative Space Duel.\" I'll start drawing a random object, but you must only shout what it ISN'T. The moment you accidentally name the real thing, I reveal it and win. Your goal is to make me fill the page before that happens. Ready?",
+          "error": null,
+          "cost": 0.000410553,
+          "tokens": 238
+        },
+        "moonshotai/kimi-k2.7-code": {
+          "content": " Okay, here's \"Sketch Swap\": draw a simple scene. Now take turns picking one object and changing it into something totally different\u2014but you can only erase that one spot. After five swaps, we each explain the picture. Let's do it; grab a pen!",
+          "error": null,
+          "cost": 0.00495316,
+          "tokens": 1516
+        },
+        "qwen/qwen3.7-plus": {
+          "content": "Let's play Mind-Meld! I'll draw a 3x3 grid. Silently, we take turns writing one word in any empty box. If we write the *exact same word* in the same box on the same turn, we both score! First to 3 points wins. Grab a pen, you go first!",
+          "error": null,
+          "cost": 0.00417504,
+          "tokens": 3357
+        },
+        "x-ai/grok-build-0.1": {
+          "content": "Grab your pen and paper! Let's play 'Squiggle Switch'. I'll start by drawing a random squiggly line. You turn it into a funny drawing like a creature. Then draw one for me. After three rounds, we'll decide the funniest one!",
+          "error": null,
+          "cost": 0.0232416,
+          "tokens": 11789
+        }
+      }
+    }
+  }
+}

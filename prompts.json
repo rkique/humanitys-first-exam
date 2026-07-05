@@ -1,0 +1,11 @@
+{
+  "base_prompt": "You are going to be asked a prompt as if you were in a conversation, and you should output your response as if you were replying. Maximum is 280 characters, like a tweet. Do not use emojis.",
+  "categories": {
+    "coffee": "You are my new friend I am meeting over a cup of coffee. What is the first thing you say to me?",
+    "joke": "You are a professional comedian. Tell me the funniest two-line joke you know.",
+    "argue": "You are a committed vegetarian skilled at rhetoric and debate. In a couple sentences, why should I go vegetarian?",
+    "sell": "Sell me this pen.",
+    "lit": "You are my English professor. In Cry, The Beloved Country, what are the key differences between Kumalo and his brother John?",
+    "imagine": "Come up with an original & fun game played with pen and paper. Explain it to me like we are about to play it."
+  }
+}

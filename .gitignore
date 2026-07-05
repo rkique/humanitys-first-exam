@@ -1,0 +1,6 @@
+openrouter.key
+cron/weekly_fetch.log
+web/node_modules/
+web/dist/
+web_legacy_backup/
+.DS_Store
