@@ -151,6 +151,7 @@ def query_one(key: str, model_id: str, prompt: str) -> dict:
                 {"role": "system", "content": BASE_PROMPT},
                 {"role": "user", "content": prompt},
             ],
+            "max_tokens": 500,
             "usage": {"include": True},
         })
         if "error" in resp:
