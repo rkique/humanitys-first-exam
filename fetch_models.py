@@ -1,12 +1,9 @@
 #!/usr/bin/env python3
 """Weekly snapshot job: query the latest model from each popular AI lab
 across a fixed set of category prompts and cache the results as JSON for
-the React frontend built in web/dist/. Intended to run from a weekly cron
-job (see cron/weekly_fetch.sh).
-
-Keep this file and openrouter.key OUTSIDE the web server's document root
-(the document root should be `web/dist/` only, after `npm run build`) so
-the API key is never served over HTTP.
+the React frontend built in web/dist/. Run weekly by the GitHub Actions
+workflow at .github/workflows/weekly.yml, which supplies the API key via
+the OPENROUTER_API_KEY secret rather than the local openrouter.key file.
 """
 import json
 import os

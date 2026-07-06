@@ -175,6 +175,9 @@ body {
   padding: 1.75rem;
 }
 
+.modal-box a {
+  color: #d6d6da;
+}
 .modal-close {
   float: right;
   background: #000;
